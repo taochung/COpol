@@ -10,6 +10,8 @@ This repository contains ALMA CO (J=2–1) polarization data and analysis script
 - SupFig16          - python code and images of Supplementary Figs. 14 and 15 used to reproduce Supplementary Fig. 16
 - SupFig3-6         - calibrated ALMA FITS images and python code used to reproduce Supplementary Figs. 3 to 6
 - SupFig7-11        - calibrated ALMA FITS images and python code used to reproduce Supplementary Figs. 7 to 11
+- c3.6_nc			- simulation code of GK effect developed by Dr. Louis Yang (please visit https://github.com/louis925/Linear-Polarization-Magnetic-Field for the usage and details). Here is a copy of the version utilized to generate the data used in Fig. 3.
+- LICENSE			- AGPL-3.0 license
 - README.md         — this file
 
 ## Data
