@@ -23,32 +23,23 @@ This repository contains ALMA CO (J=2–1) polarization data and analysis script
 - optionally: jupyter
 
 ## Usage
-Give clear commands and examples for the typical tasks. If you have scripts, show options:
-
 - Run the reduction script (example):
 ```
-python scripts/reduce_co21.py --input data/raw/ --output results/ --config configs/reduction.yaml
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute Exfig13/sim_delta_phi_4panels4.ipynb
 ```
-
-- Create polarization maps:
-```
-python scripts/make_polarization_maps.py --ms data/raw/target.ms --out results/target_pol.fits
-```
-
-- Reproduce figure 3 from the paper:
-```
-jupyter nbconvert --to html notebooks/figure3.ipynb --execute
-```
-
-Replace the script names/arguments with the actual ones your repo uses.
-
+Note: need to replace the input and output folders with the actual ones your repo uses.
 
 ## Citation & acknowledgements
 - Zenodo: https://doi.org/0.5281/zenodo.2005465571
 - ArXiv: https://arxiv.org/abs/2604.12597
 
 ## License
-State the license (e.g., MIT, BSD-3). Add a LICENSE file to the repo.
+AGPL-3.0 license
 
 ## Contact
 Maintainer: Tao-Chung Ching — https://github.com/taochung  
