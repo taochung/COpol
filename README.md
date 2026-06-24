@@ -30,7 +30,7 @@ jupyter nbconvert \
 	--ExecutePreprocessor.allow_errors=True \
 	--ExecutePreprocessor.timeout=-1 \
 	--FilesWriter.build_directory=../results \
-	--execute Exfig13/sim_delta_phi_4panels4.ipynb
+	--execute SupFig13/sim_delta_phi_4panels4.ipynb
 ```
 Note: need to replace the input and output folders with the actual ones your repo uses.
 
